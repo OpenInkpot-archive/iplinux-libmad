@@ -22,7 +22,7 @@ build-stamp:
 	dh_testdir
 
 	# Add here commands to compile the package.
-	./configure --prefix=/usr $(CONFIGURE_FLAGS)
+	./autogen.sh --prefix=/usr $(CONFIGURE_FLAGS)
 	$(MAKE)
 	touch build-stamp
 

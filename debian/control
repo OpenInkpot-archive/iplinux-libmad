@@ -1,14 +1,14 @@
 Source: libmad
 Priority: optional
-Section: sound
+Section: core
 Build-Depends: debhelper (>= 5), gettext, cdbs, autotools-dev, quilt
-Maintainer: Mad Maintainers <pkg-mad-maintainers@lists.alioth.debian.org>
-Uploaders: Kurt Roeckx <kurt@roeckx.be>, Clément Stenac <zorglub@debian.org>, Sam Clegg <samo@debian.org>
+XCS-Cross-Host-Build-Depends: debhelper (>= 5), gettext, cdbs, cdbs-embedded, autotools-dev, libtool, automake,  quilt
+Maintainer: Alexander V. Nikolaev <avn@openinkpot.org>
 Standards-Version: 3.7.3
 
 Package: libmad0
 Architecture: any
-Section: libs
+Section: core
 Depends: ${shlibs:Depends}
 Description: MPEG audio decoder library
  MAD is an MPEG audio decoder. It currently only supports the MPEG 1
