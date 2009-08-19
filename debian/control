@@ -3,7 +3,7 @@ Priority: optional
 Section: core
 Build-Depends: debhelper (>= 5), gettext, cdbs, autotools-dev, quilt
 XCS-Cross-Host-Build-Depends: debhelper (>= 5), gettext, cdbs, cdbs-embedded, autotools-dev, libtool, automake,  quilt
-Maintainer: Alexander V. Nikolaev <avn@openinkpot.org>
+Maintainer: Alexander V. Nikolaev <avn@daemon.hole.ru>
 Standards-Version: 3.7.3
 
 Package: libmad0

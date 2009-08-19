@@ -1,3 +1,9 @@
+libmad (0.15.1b-4.ip1) unstable; urgency=low
+
+  *  upload to IPLinux.
+
+ -- Alexander V. Nikolaev <avn@daemon.hole.ru>  Wed, 19 Aug 2009 20:47:50 +0300
+
 libmad (0.15.1b-4) unstable; urgency=low
 
   * On an invalid mpeg file we can go past the end of the buffer.
